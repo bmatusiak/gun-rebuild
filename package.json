@@ -1,0 +1,14 @@
+{
+  "name": "gun-rebuild",
+  "version": "0.0.0",
+  "description": "rebuild gun with browserify",
+  "scripts": {
+    "postinstall": "node post-install.js"
+  },
+  "author": "",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "gun": "*",
+    "gun-unbuild": "github:bmatusiak/gun-unbuild"
+  }
+}
